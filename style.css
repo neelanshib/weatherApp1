@@ -4,7 +4,7 @@ body{
     margin-top:30px;
     background-color: rgb(236, 236, 236);
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:550px){
     body{
         margin-right: 10px;
         margin-left: 10px;
