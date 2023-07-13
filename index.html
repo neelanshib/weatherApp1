@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
+              <span onclick="openNav()"><img src="menu-alt-04-svgrepo-com.png"  alt="menu button"></span>
+        </div>
+        <div class="cityName">
+            <label>City Name</label>
+            <input type="text" class="citySearch" placeholder="Search City">
+        </div>
+        <div class="searchButton"><img src="search-svgrepo-com.png
+            " alt="search button"></div> 
+    </header>
+    <div class="mainContainer">
+        <div class="date">
+            1 Jul, Mon
+        </div>
+        <div class="iconCurrentWeather">
+            <img src="sun-svgrepo-com.png" alt="">
+        </div>
+        <div class="currentTemperature">
+            <div class="tempToday">34</div>
+            <div class="degreeUnitWeather">
+                <div class="degreeUnit">
+                    <div class="degree">&deg</div>
+                    <div class="unit">C</div>
+                </div> 
+                <div class="weather">
+                    Sunny
+                </div>
+            </div>
+        </div>
+        <div class="miniContainer">
+            <div class="miniGrid">
+            <div class="weatherToday">
+                <div class="todayHead">Today</div>
+                <div class="todayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="todayMaxMinTemp">36/26<span>&deg</span>C</div>
+            </div>
+            <div class="weatherTomorrow">
+                <div class="tomorrowHead">Tomorrow</div>
+                <div class="tomorrowWeatherIcon smallWeatherIcon"><img src="fog-foggy-cold-svgrepo-com.png  " alt=""></div>
+                <div class="tomorrowMaxMinTemp">35/29<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Wed</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Thu</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Fri</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Sat</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Sun</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Mon 10</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Tue 11</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Wed 12</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Thu 13</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Fri 14</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Sat 15</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Sun 16</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            <div class="weatherWeekday">
+                <div class="weekdayHead">Mon 17</div>
+                <div class="weekdayWeatherIcon smallWeatherIcon"><img src="weather-partly-cloudy-day-svgrepo-com.png" alt=""></div>
+                <div class="weekdayMaxMinTemp">36/28<span>&deg</span>C</div>
+            </div>
+            </div>
+            <div class="fifteenDayWeather">
+                <button><a href='#'>15 day weather forecast</a></button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
